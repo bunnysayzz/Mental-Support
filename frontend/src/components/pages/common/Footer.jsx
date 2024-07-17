@@ -8,14 +8,14 @@ import Link from "@mui/material/Link";
 import NameLogo from "../../../assets/logos/NameLogo.svg";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
-import FacebookIcon from "@mui/icons-material/Facebook";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 function Copyright() {
   return (
     <Typography variant="body2" color="text.secondary">
-      {"Copyright © 2022 All rights reserved | "}
+      {"Copyright © 2024 All rights reserved | "}
       <Link color="inherit" href="#">
-        PrimePsyche
+        MindCircle
       </Link>
     </Typography>
   );
@@ -98,9 +98,15 @@ export default function Footer() {
               pb: 2,
             }}
           >
-            <InstagramIcon sx={{ mx: 2 }} />
-            <TwitterIcon sx={{ mx: 2 }} />
-            <FacebookIcon sx={{ mx: 2 }} />
+           <Link href="https://www.instagram.com/bunnysayzzzzz/" target="_blank">
+              <InstagramIcon sx={{ mx: 2 }} />
+            </Link>
+            <Link href="https://x.com/apt_azhar" target="_blank">
+              <TwitterIcon sx={{ mx: 2 }} />
+            </Link>
+            <Link href="https://github.com/bunnysayzz" target="_blank">
+              <GitHubIcon sx={{ mx: 2 }} />
+            </Link>
           </Box>
           <Box
             sx={{
