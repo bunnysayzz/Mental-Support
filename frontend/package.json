@@ -27,8 +27,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build --openssl-legacy-provider",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -49,9 +49,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "engines": {
-    "node": "16.x"
   },
   "devDependencies": {
     "@babel/core": "^7.19.0",
