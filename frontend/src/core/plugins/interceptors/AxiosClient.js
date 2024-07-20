@@ -2,7 +2,7 @@ import axios from "axios";
 import {} from "dotenv/config";
 
 const config = {
-  baseURL: " https://mindcirclebackend.onrender.com/",
+  baseURL: " http://localhost:5000/",
   timeout: process.env.TIMEOUT,
   // headers: { "Content-Type": "application/json" },
   // withCredentials: true,
