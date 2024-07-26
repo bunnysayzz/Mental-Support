@@ -8,9 +8,9 @@ function LoginBackground() {
         <AuthOverlay>
           <AuthTitles>
             <H1 variant="h1" textAlign="left">
-              Creating Peace of Mind
+              Find Your Calm
             </H1>
-            <H4 variant="h4">Online home to reach your prime psyche</H4>
+            <H4 variant="h4">A safe place for your mental health</H4>
           </AuthTitles>
         </AuthOverlay>
       </AuthBackground>

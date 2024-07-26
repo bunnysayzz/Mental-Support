@@ -77,7 +77,7 @@ const AddReadable = () => {
       formData.append("file", file);
 
       const res = await axios.post(
-        "http://localhost:5000/api/imageUpload",
+        "https://mental-support.onrender.com/api/imageUpload",
         formData,
         {
           headers: {
@@ -117,7 +117,7 @@ const AddReadable = () => {
       formData.append("file", file);
 
       const res = await axios.post(
-        "http://localhost:5000/api/fileUpload",
+        "https://mental-support.onrender.com/api/fileUpload",
         formData,
         {
           headers: {
@@ -160,7 +160,7 @@ const AddReadable = () => {
     } else {
       try {
         const res = await axios.post(
-          "http://localhost:5000/api/readableMaterials/create",
+          "https://mental-support.onrender.com/api/readableMaterials/create",
           { userId, title, author, readableFile, image }
         );
         console.log(res);

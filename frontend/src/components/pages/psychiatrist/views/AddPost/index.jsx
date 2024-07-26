@@ -37,7 +37,7 @@ const HelpHomePage = () => {
     };
     if (isValid()) {
       axios
-        .post("http://localhost:5000/api/HelpPost/create", newPost)
+        .post("https://mental-support.onrender.com/api/HelpPost/create", newPost)
         .then((res) => {
           console.log(res);
           setOpen(true);

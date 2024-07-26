@@ -20,7 +20,7 @@ export default function MaterialsAlertDialog(props) {
   const handleDelete = async () => {
     try {
       const res = await axios.delete(
-        `http://localhost:5000/api/readableMaterials/delete/${deleteId}`
+        `https://mental-support.onrender.com/api/readableMaterials/delete/${deleteId}`
       );
       console.log(res.data);
       setOpen(false);

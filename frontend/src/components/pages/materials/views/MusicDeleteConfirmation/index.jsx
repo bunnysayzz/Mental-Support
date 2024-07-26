@@ -20,7 +20,7 @@ export default function MusicAlertDialog(props) {
   const handleDelete = async () => {
     try {
       const res = await axios.delete(
-        `http://localhost:5000/api/audioMaterials/delete/${deleteId}`
+        `https://mental-support.onrender.com/api/audioMaterials/delete/${deleteId}`
       );
       console.log(res.data);
       setOpen(false);

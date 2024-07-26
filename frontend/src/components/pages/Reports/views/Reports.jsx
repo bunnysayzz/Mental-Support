@@ -34,7 +34,7 @@ const Reports = () => {
   const [readable, setReadable] = React.useState([]);
   const getAllReadable = async () => {
     await axios
-      .get("http://localhost:5000/api/readableMaterials/getAll")
+      .get("https://mental-support.onrender.com/api/readableMaterials/getAll")
       .then((res) => {
         console.log(res);
         setReadable(res.data.data);
