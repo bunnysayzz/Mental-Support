@@ -31,7 +31,7 @@ const EditMusic = () => {
 
   async function fetchData() {
     await axios
-      .get(`https://mental-support.onrender.com/api/audioMaterials/get/${id}`)
+      .get(`http://localhost:5000/api/audioMaterials/get/${id}`)
       .then((res) => {
         console.log(res);
         setPayload(res.data.data);
@@ -48,7 +48,7 @@ const EditMusic = () => {
     if (isValid()) {
       await axios
         .put(
-          `https://mental-support.onrender.com/api/audioMaterials/update/${id}`,
+          `http://localhost:5000/api/audioMaterials/update/${id}`,
           payload
         )
         .then((res) => {
@@ -102,7 +102,7 @@ const EditMusic = () => {
       formData.append("file", file);
 
       const res = await axios.post(
-        "https://mental-support.onrender.com/api/imageUpload",
+        "http://localhost:5000/api/imageUpload",
         formData,
         {
           headers: {
@@ -146,7 +146,7 @@ const EditMusic = () => {
       formData.append("file", file);
 
       const res = await axios.post(
-        "https://mental-support.onrender.com/api/fileUpload",
+        "http://localhost:5000/api/fileUpload",
         formData,
         {
           headers: {

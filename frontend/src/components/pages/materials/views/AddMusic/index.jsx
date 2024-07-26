@@ -82,7 +82,7 @@ const AddMusic = () => {
       formData.append("file", file);
 
       const res = await axios.post(
-        "https://mental-support.onrender.com/api/fileUpload",
+        "http://localhost:5000/api/fileUpload",
         formData,
         {
           headers: {
@@ -125,7 +125,7 @@ const AddMusic = () => {
     } else {
       try {
         const res = await axios.post(
-          "https://mental-support.onrender.com/api/audioMaterials/create",
+          "http://localhost:5000/api/audioMaterials/create",
           { userId, title, genre, album, artist, audioFile, image }
         );
         console.log(res);
@@ -169,7 +169,7 @@ const AddMusic = () => {
       formData.append("file", file);
 
       const res = await axios.post(
-        "https://mental-support.onrender.com/api/imageUpload",
+        "http://localhost:5000/api/imageUpload",
         formData,
         {
           headers: {

@@ -87,7 +87,7 @@ const EditPost = () => {
       formData.append("file", file);
 
       const res = await axios.post(
-        "https://mental-support.onrender.com/api/imageUpload",
+        "http://localhost:5000/api/imageUpload",
         formData,
         {
           headers: {

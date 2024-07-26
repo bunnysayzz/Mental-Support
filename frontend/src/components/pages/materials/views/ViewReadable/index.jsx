@@ -60,7 +60,7 @@ const ViewReadable = () => {
     const getAllReadable = async () => {
       await axios
         .post(
-          `https://mental-support.onrender.com/api/readableMaterials/getApproveReadableMaterial`,
+          `http://localhost:5000/api/readableMaterials/getApproveReadableMaterial`,
           { approve: true }
         )
         .then((res) => {
