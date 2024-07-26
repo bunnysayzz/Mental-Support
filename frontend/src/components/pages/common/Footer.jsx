@@ -6,7 +6,7 @@ import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import Link from "@mui/material/Link";
 import NameLogo from "../../../assets/logos/NameLogo.svg";
-import InstagramIcon from "@mui/icons-material/Instagram";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
@@ -98,8 +98,8 @@ export default function Footer() {
               pb: 2,
             }}
           >
-           <Link href="https://www.instagram.com/bunnysayzzzzz/" target="_blank">
-              <InstagramIcon sx={{ mx: 2 }} />
+            <Link href="https://www.linkedin.com/in/azharuddindev/" target="_blank">
+              <LinkedInIcon sx={{ mx: 2 }} />
             </Link>
             <Link href="https://x.com/apt_azhar" target="_blank">
               <TwitterIcon sx={{ mx: 2 }} />

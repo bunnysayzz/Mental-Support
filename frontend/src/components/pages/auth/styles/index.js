@@ -9,7 +9,7 @@ const AuthBackground = styled(PSection)`
   width: 100%;
   height: 100vh;
   min-height: 750px;
-  background: url("https://cdn.pixabay.com/photo/2022/05/14/16/28/satisfaction-7196040_960_720.jpg")
+  background: url("https://rebrand.ly/3zhy4g0")
     bottom center no-repeat;
   background-size: cover;
   display: block;
