@@ -50,7 +50,7 @@ const ViewMusic = () => {
     const getAllMusic = async () => {
       await axios
         .post(
-          `http://localhost:5000/api/audioMaterials/getApproveAudioMaterial`,
+          `https://mindcirclebackend.onrender.com/api/audioMaterials/getApproveAudioMaterial`,
           { approve: true }
         )
         .then((res) => {

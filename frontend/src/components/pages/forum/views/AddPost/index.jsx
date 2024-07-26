@@ -85,7 +85,7 @@ const AddPost = () => {
       formData.append("file", file);
 
       const res = await axios.post(
-        "http://localhost:5000/api/imageUpload",
+        "https://mindcirclebackend.onrender.com/api/imageUpload",
         formData,
         {
           headers: {

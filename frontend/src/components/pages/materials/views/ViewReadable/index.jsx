@@ -60,7 +60,7 @@ const ViewReadable = () => {
     const getAllReadable = async () => {
       await axios
         .post(
-          `http://localhost:5000/api/readableMaterials/getApproveReadableMaterial`,
+          `https://mindcirclebackend.onrender.com/api/readableMaterials/getApproveReadableMaterial`,
           { approve: true }
         )
         .then((res) => {

@@ -33,7 +33,7 @@ const EditReadable = () => {
   const { userId, title, author, readableFile, image } = payload;
   async function fetchData() {
     await axios
-      .get(`http://localhost:5000/api/readableMaterials/get/${id}`)
+      .get(`https://mindcirclebackend.onrender.com/api/readableMaterials/get/${id}`)
       .then((res) => {
         console.log(res);
         setPayload(res.data.data);
@@ -54,7 +54,7 @@ const EditReadable = () => {
     if (isValid()) {
       await axios
         .put(
-          `http://localhost:5000/api/readableMaterials/update/${id}`,
+          `https://mental-support.onrender.com/api/readableMaterials/update/${id}`,
           payload
         )
         .then((res) => {
@@ -100,7 +100,7 @@ const EditReadable = () => {
       formData.append("file", file);
 
       const res = await axios.post(
-        "http://localhost:5000/api/imageUpload",
+        "https://mental-support.onrender.com/api/imageUpload",
         formData,
         {
           headers: {
@@ -144,7 +144,7 @@ const EditReadable = () => {
       formData.append("file", file);
 
       const res = await axios.post(
-        "http://localhost:5000/api/fileUpload",
+        "https://mental-support.onrender.com/api/fileUpload",
         formData,
         {
           headers: {
