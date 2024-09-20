@@ -3,6 +3,11 @@
 ## Overview
 MindCircle is a transformative web application designed to cultivate a supportive community of individuals and healthcare professionals. Within this platform, practitioners can recommend soothing music and enriching reading materials, such as books, to assist individuals in overcoming their challenges. Participants can share their personal experiences, while healthcare providers can update events for community engagement.
 
+
+
+### **⚠️ WARNING: Please wait for 50 seconds while logging in, as the server is running on a free instance, which requires time to start.**
+
+
 ## Login Page
 ![Login Page](scr1.png)
 
