@@ -30,7 +30,7 @@ function Copyright(props) {
     >
       {"Copyright © "}
       <Link color="inherit" href="#">
-        PrimePsyche
+        MindCircle
       </Link>{" "}
       {new Date().getFullYear()}
       {"."}
